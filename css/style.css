@@ -581,6 +581,7 @@ h2{
 
 .valign{
     max-width: 1200px;
+    margin: auto;
 }
 
 @media (max-width: 1250px){
@@ -632,6 +633,10 @@ h2{
 		position: relative;
 	}
 
+	.gallery-list__item{
+        margin: 0;
+	}
+	
 	.gallery-list__item img {
 	    width: 100%;
 	    height: auto;

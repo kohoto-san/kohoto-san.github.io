@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	var loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 600, easingIn : mina.easeinout } );
+	var loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 5600, easingIn : mina.easeinout } );
 	loader.show();
 
 
@@ -113,7 +113,7 @@ $(document).ready(function() {
 				loader.hide();
 			}, 1000 );
 			
-		}, 500 );
+		}, 5600 );
 	}); // window.load
 
 }); // ready
