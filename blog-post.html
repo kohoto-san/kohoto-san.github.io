@@ -24,6 +24,57 @@
 		</svg>
 	</div><!-- /pageload-overlay -->
 
+	<div class="valign-wrapper preloader-valign-wrapper">
+		<div class="valign">
+			<div class="preloader-wrapper big active">
+				<div class="spinner-layer spinner-blue">
+					<div class="circle-clipper left">
+					  <div class="circle"></div>
+					</div>
+					<div class="gap-patch">
+					  <div class="circle"></div>
+					</div>
+					<div class="circle-clipper right">
+					  <div class="circle"></div>
+					</div>
+				</div>
+
+				<div class="spinner-layer spinner-red">
+					<div class="circle-clipper left">
+						<div class="circle"></div>
+					</div>
+					<div class="gap-patch">
+					  	<div class="circle"></div>
+					</div>
+					<div class="circle-clipper right">
+					  	<div class="circle"></div>
+					</div>
+				</div>
+
+				<div class="spinner-layer spinner-yellow">
+					<div class="circle-clipper left">
+					  	<div class="circle"></div>
+					</div>
+					<div class="gap-patch">
+					  	<div class="circle"></div>
+					</div>
+					<div class="circle-clipper right">
+					  	<div class="circle"></div>
+					</div>
+				</div>
+
+				<div class="spinner-layer spinner-green">
+					<div class="circle-clipper left">
+					  	<div class="circle"></div>
+					</div><div class="gap-patch">
+					  	<div class="circle"></div>
+					</div><div class="circle-clipper right">
+					  	<div class="circle"></div>
+					</div>
+				</div>
+		    </div>
+		</div>
+	</div>
 
 	<div class="body post">
 
@@ -99,10 +150,11 @@
 				setTimeout( function() {
 					$('.body').css('visibility', 'visible');
 					setTimeout( function() {
+						$('.preloader-valign-wrapper').hide();
 						loader.hide();
 					}, 1000 );
 					
-				}, 500 );
+				}, 600 );
 			}); // window.load
 		
 		});

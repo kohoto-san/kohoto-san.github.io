@@ -110,10 +110,11 @@ $(document).ready(function() {
 		setTimeout( function() {
 			$('.body').css('visibility', 'visible');
 			setTimeout( function() {
+				$('.preloader-valign-wrapper').hide();
 				loader.hide();
 			}, 1000 );
 			
-		}, 5600 );
+		}, 600 );
 	}); // window.load
 
 }); // ready
